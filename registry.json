@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "updated": "2026-06-15",
+  "plugins": [
+    {
+      "id": "com.mimir.slowmovie",
+      "name": "Slow Movie Player",
+      "description": "Plays video files one frame at a time at ultra-slow speeds, inspired by the Very Slow Movie Player concept. Supports quiet hours, per-movie timing, and random playback.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-slow-movie.git",
+      "icon": "film",
+      "tags": ["video", "movie", "slow", "epaper", "display"],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-slow-movie",
+      "min_mimir_version": "2.1.0",
+      "changelog": "Initial release"
+    },
+    {
+      "id": "com.epaperframe.photoframe",
+      "name": "Photo Frame",
+      "description": "Gallery-based photo slideshow with intelligent image management. Supports multiple galleries, smart crop modes, and custom ordering.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-channel-photoframe.git",
+      "icon": "photo",
+      "tags": ["photo", "gallery", "slideshow", "display"],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-channel-photoframe",
+      "min_mimir_version": "2.1.0",
+      "changelog": "Initial release"
+    },
+    {
+      "id": "com.spotify.status",
+      "name": "Spotify Now Playing",
+      "description": "Displays the currently playing Spotify track with album art and metadata. Supports push updates for instant display refresh when tracks change.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-channel-spotify.git",
+      "icon": "music",
+      "tags": ["spotify", "music", "display"],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-channel-spotify",
+      "min_mimir_version": "2.1.0",
+      "changelog": "Initial release"
+    }
+  ]
+}
