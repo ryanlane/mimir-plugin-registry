@@ -6,7 +6,7 @@
       "id": "com.mimir.slowmovie",
       "name": "Slow Movie Player",
       "description": "Plays video files one frame at a time at ultra-slow speeds, inspired by the Very Slow Movie Player concept. Supports quiet hours, per-movie timing, and random playback.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "git_url": "https://github.com/ryanlane/mimir-slow-movie.git",
       "icon": "film",
       "tags": [
