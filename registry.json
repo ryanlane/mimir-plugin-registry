@@ -9,7 +9,13 @@
       "version": "1.0.0",
       "git_url": "https://github.com/ryanlane/mimir-slow-movie.git",
       "icon": "film",
-      "tags": ["video", "movie", "slow", "epaper", "display"],
+      "tags": [
+        "video",
+        "movie",
+        "slow",
+        "epaper",
+        "display"
+      ],
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/mimir-slow-movie",
       "min_mimir_version": "2.1.0",
@@ -19,10 +25,15 @@
       "id": "com.epaperframe.photoframe",
       "name": "Photo Frame",
       "description": "Gallery-based photo slideshow with intelligent image management. Supports multiple galleries, smart crop modes, and custom ordering.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "git_url": "https://github.com/ryanlane/mimir-channel-photoframe.git",
       "icon": "photo",
-      "tags": ["photo", "gallery", "slideshow", "display"],
+      "tags": [
+        "photo",
+        "gallery",
+        "slideshow",
+        "display"
+      ],
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/mimir-channel-photoframe",
       "min_mimir_version": "2.1.0",
@@ -35,7 +46,11 @@
       "version": "1.0.0",
       "git_url": "https://github.com/ryanlane/mimir-channel-spotify.git",
       "icon": "music",
-      "tags": ["spotify", "music", "display"],
+      "tags": [
+        "spotify",
+        "music",
+        "display"
+      ],
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/mimir-channel-spotify",
       "min_mimir_version": "2.1.0",
