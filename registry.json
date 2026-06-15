@@ -44,7 +44,7 @@
       "name": "Spotify Now Playing",
       "description": "Displays the currently playing Spotify track with album art and metadata. Supports push updates for instant display refresh when tracks change.",
       "version": "1.0.0",
-      "git_url": "https://github.com/ryanlane/mimir-channel-spotify.git",
+      "git_url": "https://github.com/ryanlane/spotify-status.git",
       "icon": "music",
       "tags": [
         "spotify",
@@ -52,7 +52,7 @@
         "display"
       ],
       "author": "Ryan Lane",
-      "homepage": "https://github.com/ryanlane/mimir-channel-spotify",
+      "homepage": "https://github.com/ryanlane/spotify-status",
       "min_mimir_version": "2.1.0",
       "changelog": "Initial release"
     }
