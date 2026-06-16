@@ -25,7 +25,7 @@
       "id": "com.epaperframe.photoframe",
       "name": "Photo Frame",
       "description": "Gallery-based photo slideshow with intelligent image management. Supports multiple galleries, smart crop modes, and custom ordering.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "git_url": "https://github.com/ryanlane/image-frame-channel-mimir.git",
       "icon": "photo",
       "tags": [
