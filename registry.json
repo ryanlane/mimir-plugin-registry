@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-15",
+  "updated": "2026-06-16",
   "plugins": [
     {
       "id": "com.mimir.slowmovie",
@@ -36,6 +36,25 @@
       ],
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/image-frame-channel-mimir",
+      "min_mimir_version": "2.1.0",
+      "changelog": "Initial release"
+    },
+    {
+      "id": "com.mimir.comiccovers",
+      "name": "Comic Covers",
+      "description": "Displays random comic book and graphic novel covers from the Open Library archive. Supports subjects (graphic_novels, manga, etc.) and publisher facets (Marvel Comics, DC Comics, Image Comics) as sub-channels.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-source-comic-covers.git",
+      "icon": "book-open",
+      "tags": [
+        "comics",
+        "art",
+        "books",
+        "graphic-novels",
+        "open-library"
+      ],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-source-comic-covers",
       "min_mimir_version": "2.1.0",
       "changelog": "Initial release"
     },
