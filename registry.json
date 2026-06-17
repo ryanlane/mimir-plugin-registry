@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-16",
+  "updated": "2026-06-17",
   "plugins": [
     {
       "id": "com.mimir.slowmovie",
@@ -37,6 +37,26 @@
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/image-frame-channel-mimir",
       "min_mimir_version": "2.1.0",
+      "changelog": "Initial release"
+    },
+    {
+      "id": "com.mimir.movieposters",
+      "name": "Movie Posters",
+      "description": "Displays random movie poster art from The Movie Database (TMDB). Supports genre sub-channels (Action, Horror, Sci-Fi…) and curated lists (Popular, Top Rated). Requires a free TMDB API key.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-source-movie-posters.git",
+      "icon": "film",
+      "tags": [
+        "movies",
+        "posters",
+        "art",
+        "tmdb",
+        "cinema"
+      ],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-source-movie-posters",
+      "min_mimir_version": "2.1.0",
+      "requires_api_key": true,
       "changelog": "Initial release"
     },
     {
