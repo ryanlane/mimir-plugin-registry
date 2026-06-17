@@ -82,7 +82,7 @@
       "id": "com.mimir.weather",
       "name": "Weather Display",
       "description": "Renders live weather conditions and forecasts as full-resolution images using OpenWeatherMap. Each configured city is an independent sub-channel; supports landscape, portrait, and square display layouts with dark/light themes. Requires a free OWM API key.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "git_url": "https://github.com/ryanlane/mimir-source-weather.git",
       "icon": "cloud",
       "tags": [
