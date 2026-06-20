@@ -119,7 +119,7 @@
       "id": "com.mimir.headlines",
       "name": "Headlines",
       "description": "Displays live news headlines from NewsAPI as full-resolution images. Each configured feed targets a category (Business, Tech, Sports…) or keyword search, rendered in a newspaper-style layout across landscape, portrait, and square displays. Supports dark, light, and high-contrast e-ink themes. Requires a free NewsAPI key.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "git_url": "https://github.com/ryanlane/mimir-source-headlines.git",
       "icon": "newspaper",
       "tags": [
@@ -133,7 +133,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-headlines",
       "min_mimir_version": "2.1.0",
       "requires_api_key": true,
-      "changelog": "add font size and excerpt source options, fix landscape image layout"
+      "changelog": "auto-rotate through articles on each display update"
     }
   ]
 }
