@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-20",
+  "updated": "2026-06-22",
   "plugins": [
     {
       "id": "com.mimir.slowmovie",
@@ -114,6 +114,27 @@
       "homepage": "https://github.com/ryanlane/spotify-status",
       "min_mimir_version": "2.1.0",
       "changelog": "Initial release"
+    },
+    {
+      "id": "com.metmuseum.art",
+      "name": "Met Museum Art",
+      "description": "Displays artworks from The Metropolitan Museum of Art's open collection. Browse by department, keyword search, or highlights gallery — no API key required. Supports multiple user-defined galleries as sub-channels.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-source-metart.git",
+      "icon": "landmark",
+      "tags": [
+        "art",
+        "museum",
+        "met",
+        "gallery",
+        "paintings",
+        "public-domain"
+      ],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-source-metart",
+      "min_mimir_version": "2.1.0",
+      "requires_api_key": false,
+      "changelog": "Initial release with department, search, and highlights galleries"
     },
     {
       "id": "com.mimir.headlines",
