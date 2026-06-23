@@ -160,7 +160,7 @@
       "id": "com.lastfm.nowplaying",
       "name": "Last.fm Now Playing",
       "description": "Displays your currently scrobbling track from Last.fm with album art. Works with Apple Music, Spotify, or any Last.fm-connected player. Requires a free Last.fm API key.",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "git_url": "https://github.com/ryanlane/mimir-source-lastfm.git",
       "icon": "music",
       "tags": ["music", "lastfm", "now-playing", "scrobbling"],
@@ -168,7 +168,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-lastfm",
       "min_mimir_version": "2.1.0",
       "requires_api_key": true,
-      "changelog": "fix management UI not loading: add get_manifest, get_router, and ui file serving"
+      "changelog": "rewrite renderer with HTML templates: responsive layouts, square art-only default, square-with-details option"
     }
   ]
 }
