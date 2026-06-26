@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-24",
+  "updated": "2026-06-26",
   "plugins": [
     {
       "id": "com.mimir.slowmovie",
@@ -42,7 +42,7 @@
     {
       "id": "com.mimir.movieposters",
       "name": "Movie Posters",
-      "description": "Displays random movie poster art from The Movie Database (TMDB). Supports genre sub-channels (Action, Horror, Sci-Fi…) and curated lists (Popular, Top Rated). Requires a free TMDB API key.",
+      "description": "Displays random movie poster art from The Movie Database (TMDB). Supports genre sub-channels (Action, Horror, Sci-Fi\u2026) and curated lists (Popular, Top Rated). Requires a free TMDB API key.",
       "version": "1.0.0",
       "git_url": "https://github.com/ryanlane/mimir-source-movie-posters.git",
       "icon": "film",
@@ -82,7 +82,7 @@
       "id": "com.mimir.weather",
       "name": "Weather Display",
       "description": "Renders live weather conditions and forecasts as full-resolution images using OpenWeatherMap. Each configured city is an independent sub-channel; supports landscape, portrait, and square display layouts with dark/light themes. Requires a free OWM API key.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "git_url": "https://github.com/ryanlane/mimir-source-weather.git",
       "icon": "cloud",
       "tags": [
@@ -96,7 +96,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-weather",
       "min_mimir_version": "2.1.0",
       "requires_api_key": true,
-      "changelog": "Initial release"
+      "changelog": "internal refactor to use shared mimir_utils; add model tests"
     },
     {
       "id": "com.spotify.status",
@@ -118,7 +118,7 @@
     {
       "id": "com.metmuseum.art",
       "name": "Met Museum Art",
-      "description": "Displays artworks from The Metropolitan Museum of Art's open collection. Browse by department, keyword search, or highlights gallery — no API key required. Supports multiple user-defined galleries as sub-channels.",
+      "description": "Displays artworks from The Metropolitan Museum of Art's open collection. Browse by department, keyword search, or highlights gallery \u2014 no API key required. Supports multiple user-defined galleries as sub-channels.",
       "version": "1.3.1",
       "git_url": "https://github.com/ryanlane/mimir-source-metart.git",
       "icon": "landmark",
@@ -139,7 +139,7 @@
     {
       "id": "com.mimir.headlines",
       "name": "Headlines",
-      "description": "Displays live news headlines from NewsAPI as full-resolution images. Each configured feed targets a category (Business, Tech, Sports…) or keyword search, rendered in a newspaper-style layout across landscape, portrait, and square displays. Supports dark, light, and high-contrast e-ink themes. Requires a free NewsAPI key.",
+      "description": "Displays live news headlines from NewsAPI as full-resolution images. Each configured feed targets a category (Business, Tech, Sports\u2026) or keyword search, rendered in a newspaper-style layout across landscape, portrait, and square displays. Supports dark, light, and high-contrast e-ink themes. Requires a free NewsAPI key.",
       "version": "1.2.0",
       "git_url": "https://github.com/ryanlane/mimir-source-headlines.git",
       "icon": "newspaper",
@@ -163,7 +163,12 @@
       "version": "1.3.0",
       "git_url": "https://github.com/ryanlane/mimir-source-lastfm.git",
       "icon": "music",
-      "tags": ["music", "lastfm", "now-playing", "scrobbling"],
+      "tags": [
+        "music",
+        "lastfm",
+        "now-playing",
+        "scrobbling"
+      ],
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/mimir-source-lastfm",
       "min_mimir_version": "2.1.0",
