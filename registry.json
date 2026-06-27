@@ -3,6 +3,20 @@
   "updated": "2026-06-26",
   "plugins": [
     {
+      "id": "com.mimir.mediaplayer",
+      "name": "Media Player Now Playing",
+      "description": "Displays the poster of the currently playing video from Plex, Jellyfin, or Emby. Fires real-time push events so it can act as a now-playing interrupt source on any scene.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-source-mediaplayer.git",
+      "icon": "tv",
+      "tags": ["plex", "jellyfin", "emby", "now-playing", "video", "media", "poster"],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-source-mediaplayer",
+      "min_mimir_version": "2.1.0",
+      "requires_api_key": true,
+      "changelog": "Initial release — Plex, Jellyfin, and Emby support; poster rendering with optional title overlay"
+    },
+    {
       "id": "com.mimir.slowmovie",
       "name": "Slow Movie Player",
       "description": "Plays video files one frame at a time at ultra-slow speeds, inspired by the Very Slow Movie Player concept. Supports quiet hours, per-movie timing, and random playback.",
@@ -19,7 +33,7 @@
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/mimir-slow-movie",
       "min_mimir_version": "2.1.0",
-      "changelog": "Initial release"
+      "changelog": "internal refactor to use shared mimir_utils; add model tests"
     },
     {
       "id": "com.epaperframe.photoframe",
@@ -43,7 +57,7 @@
       "id": "com.mimir.movieposters",
       "name": "Movie Posters",
       "description": "Displays random movie poster art from The Movie Database (TMDB). Supports genre sub-channels (Action, Horror, Sci-Fi\u2026) and curated lists (Popular, Top Rated). Requires a free TMDB API key.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "git_url": "https://github.com/ryanlane/mimir-source-movie-posters.git",
       "icon": "film",
       "tags": [
@@ -57,13 +71,13 @@
       "homepage": "https://github.com/ryanlane/mimir-source-movie-posters",
       "min_mimir_version": "2.1.0",
       "requires_api_key": true,
-      "changelog": "Initial release"
+      "changelog": "internal refactor to use shared mimir_utils; add model tests"
     },
     {
       "id": "com.mimir.comiccovers",
       "name": "Comic Covers",
       "description": "Displays random comic book and graphic novel covers from the Open Library archive. Supports subjects (graphic_novels, manga, etc.) and publisher facets (Marvel Comics, DC Comics, Image Comics) as sub-channels.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "git_url": "https://github.com/ryanlane/mimir-source-comic-covers.git",
       "icon": "book-open",
       "tags": [
@@ -76,7 +90,7 @@
       "author": "Ryan Lane",
       "homepage": "https://github.com/ryanlane/mimir-source-comic-covers",
       "min_mimir_version": "2.1.0",
-      "changelog": "Initial release"
+      "changelog": "internal refactor to use shared mimir_utils; add model tests"
     },
     {
       "id": "com.mimir.weather",
@@ -119,7 +133,7 @@
       "id": "com.metmuseum.art",
       "name": "Met Museum Art",
       "description": "Displays artworks from The Metropolitan Museum of Art's open collection. Browse by department, keyword search, or highlights gallery \u2014 no API key required. Supports multiple user-defined galleries as sub-channels.",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "git_url": "https://github.com/ryanlane/mimir-source-metart.git",
       "icon": "landmark",
       "tags": [
@@ -134,13 +148,13 @@
       "homepage": "https://github.com/ryanlane/mimir-source-metart",
       "min_mimir_version": "2.1.0",
       "requires_api_key": false,
-      "changelog": "details variant: text-only card layout, no thumbnail"
+      "changelog": "internal refactor to use shared mimir_utils; add model tests"
     },
     {
       "id": "com.mimir.headlines",
       "name": "Headlines",
       "description": "Displays live news headlines from NewsAPI as full-resolution images. Each configured feed targets a category (Business, Tech, Sports\u2026) or keyword search, rendered in a newspaper-style layout across landscape, portrait, and square displays. Supports dark, light, and high-contrast e-ink themes. Requires a free NewsAPI key.",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "git_url": "https://github.com/ryanlane/mimir-source-headlines.git",
       "icon": "newspaper",
       "tags": [
@@ -154,7 +168,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-headlines",
       "min_mimir_version": "2.1.0",
       "requires_api_key": true,
-      "changelog": "auto-rotate through articles on each display update"
+      "changelog": "internal refactor to use shared mimir_utils; add model tests"
     },
     {
       "id": "com.lastfm.nowplaying",
@@ -173,7 +187,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-lastfm",
       "min_mimir_version": "2.1.0",
       "requires_api_key": true,
-      "changelog": "add push support: fires immediate scene refresh on track change via server event dispatcher"
+      "changelog": "internal refactor to use shared mimir_utils; Settings converted to dataclass; add model tests"
     }
   ]
 }
