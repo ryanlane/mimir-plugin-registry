@@ -6,7 +6,7 @@
       "id": "com.mimir.mediaplayer",
       "name": "Media Player Now Playing",
       "description": "Displays the poster of the currently playing video from Plex, Jellyfin, or Emby. Fires real-time push events so it can act as a now-playing interrupt source on any scene.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "git_url": "https://github.com/ryanlane/mimir-source-mediaplayer.git",
       "icon": "tv",
       "tags": ["plex", "jellyfin", "emby", "now-playing", "video", "media", "poster"],
@@ -14,7 +14,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-mediaplayer",
       "min_mimir_version": "2.1.0",
       "requires_api_key": true,
-      "changelog": "add Plex webhook support for instant play/stop response; poll backs off to 2 min when webhooks active"
+      "changelog": "improve webhook diagnostics: INFO logging on every event, warning when push listener missing, last-event status in /status and settings UI"
     },
     {
       "id": "com.mimir.slowmovie",
