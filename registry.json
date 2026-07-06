@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-04",
+  "updated": "2026-07-06",
   "plugins": [
     {
       "id": "com.mimir.mediaplayer",
@@ -201,7 +201,7 @@
       "id": "com.mimir.genart",
       "name": "Generative Art",
       "description": "Gallery-grade algorithmic art rendered locally \u2014 no external APIs. Two print styles (Bauhaus \u00d7 Wabi-Sabi gicl\u00e9e, 1960s constructivist risograph) across six composition algorithms, with static PNG for e-ink and seamless animated WebP loops for LCD/OLED displays.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "git_url": "https://github.com/ryanlane/mimir-source-genart.git",
       "icon": "shapes",
       "tags": [
@@ -217,7 +217,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-genart",
       "min_mimir_version": "2.1.0",
       "requires_api_key": false,
-      "changelog": "add hex grid algorithm and named gallery sub-channels (assign different style/algorithm configs to different displays); replaces flat global settings"
+      "changelog": "add Process CMYK and Additive RGB color-theory styles"
     }
   ]
 }
