@@ -141,7 +141,7 @@
       "id": "com.metmuseum.art",
       "name": "Met Museum Art",
       "description": "Displays artworks from The Metropolitan Museum of Art's open collection. Browse by department, keyword search, or highlights gallery \u2014 no API key required. Supports multiple user-defined galleries as sub-channels.",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "git_url": "https://github.com/ryanlane/mimir-source-metart.git",
       "icon": "landmark",
       "tags": [
@@ -156,7 +156,7 @@
       "homepage": "https://github.com/ryanlane/mimir-source-metart",
       "min_mimir_version": "2.1.0",
       "requires_api_key": false,
-      "changelog": "add optional baked-in details overlay (position + field picker) and an X-Artwork-Metadata response header"
+      "changelog": "include overlay_position in the metadata header so client-rendered overlays match the configured corner"
     },
     {
       "id": "com.mimir.headlines",
