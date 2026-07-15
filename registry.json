@@ -218,6 +218,27 @@
       "min_mimir_version": "2.1.0",
       "requires_api_key": false,
       "changelog": "honor display supports_animation capability \u2014 animated galleries serve static renders to panels that can't animate"
+    },
+    {
+      "id": "edu.artic.art",
+      "name": "Art Institute of Chicago",
+      "description": "Displays artworks from the Art Institute of Chicago's open collection. Browse by department, keyword search, or highlights gallery \u2014 no API key required. Supports multiple user-defined galleries as sub-channels.",
+      "version": "1.0.0",
+      "git_url": "https://github.com/ryanlane/mimir-source-Art-Institute-of-Chicago.git",
+      "icon": "landmark",
+      "tags": [
+        "art",
+        "museum",
+        "chicago",
+        "gallery",
+        "paintings",
+        "public-domain"
+      ],
+      "author": "Ryan Lane",
+      "homepage": "https://github.com/ryanlane/mimir-source-Art-Institute-of-Chicago",
+      "min_mimir_version": "2.1.0",
+      "requires_api_key": false,
+      "changelog": "initial release"
     }
   ]
 }
